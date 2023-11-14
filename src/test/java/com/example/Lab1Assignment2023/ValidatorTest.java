@@ -57,7 +57,7 @@ class ValidatorTest {
     @DisplayName("Should pass with valid email")
     void itShouldValidateEmail() {
         //given
-        String email = "daniel@gmail.com";
+        String email = "danielgmail.com";
         //when
         boolean expected = Validator.isEmailValid(email);
         //then
